@@ -5,7 +5,7 @@ function setup() {
   canvas.id('p5canvas');
   video = createCapture(VIDEO);
   video.size(640, 480);
-  video.id('p5video')
+  video.id('p5video');
 
   var seriously = new Seriously();
 
