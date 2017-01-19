@@ -12,11 +12,14 @@ function setup() {
   var src = seriously.source('#p5video');
   var target = seriously.target('#p5canvas');
 
-  var blur = seriously.effect('blur');
+  //var blur = seriously.effect('blur');
   //blur.amount = '#blur-range';
-  blur.source = src;
-  target.source = blur;
+  //blur.source = src;
+  //target.source = blur;
 
+  var vignette = seriously.effect('vignette');
+  vignette.source = src;
+  target.source = vignetteM
 
 
   seriosly.go();
