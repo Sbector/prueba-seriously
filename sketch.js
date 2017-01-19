@@ -3,7 +3,6 @@ var video;
 function setup() {
   canvas = createCanvas (640, 480, WEBGL);
   canvas.id('p5canvas');
-  background(51);
   video = createCapture(VIDEO);
   video.size(640, 480);
   video.id('p5video')
